@@ -30,9 +30,11 @@
         android:id="@+id/usernameEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="15dp"
         android:layout_marginEnd="16dp"
+        android:autofillHints=""
         android:hint="@string/hello2"
+        android:inputType=""
         android:minHeight="48dp" />
 
     <Button
@@ -40,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="16dp"
+        android:layout_margin="18dp"
         android:paddingHorizontal="24dp"
         android:text="@string/Button"
         android:textSize="14sp" />
