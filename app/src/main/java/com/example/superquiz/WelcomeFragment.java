@@ -20,7 +20,7 @@ import com.example.superquiz.databinding.FragmentWelcomeBinding;
  * Use the {@link WelcomeFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class WelcomeFragment extends Fragment {
+public class jtyWelcomeFragment extends Fragment {
     FragmentWelcomeBinding binding;
 
     // TODO: Rename parameter arguments, choose names that match
